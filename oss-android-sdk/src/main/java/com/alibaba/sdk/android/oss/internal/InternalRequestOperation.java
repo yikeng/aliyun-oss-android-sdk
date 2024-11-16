@@ -580,7 +580,7 @@ public class InternalRequestOperation {
     public OSSAsyncTask<GetObjectMetaResult> getObjectMeta(GetObjectMetaRequest request, OSSCompletedCallback<GetObjectMetaRequest, GetObjectMetaResult> completedCallback) {
 
         Map<String, String> query = new LinkedHashMap<String, String>();
-        query.put("objectMeta", "");
+//        query.put("objectMeta", "");
 
         RequestMessage requestMessage = new RequestMessage();
         requestMessage.setIsAuthorizationRequired(request.isAuthorizationRequired());
